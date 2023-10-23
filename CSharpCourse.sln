@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCourse", "CSharpCourse\CSharpCourse.csproj", "{118128C7-C6FF-4B57-B083-CF92E0E35554}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesAndVariables", "TypesAndVariables\TypesAndVariables.csproj", "{406D5E20-4C36-4CA9-9E2C-A2ED9CEA687A}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{118128C7-C6FF-4B57-B083-CF92E0E35554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{118128C7-C6FF-4B57-B083-CF92E0E35554}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{118128C7-C6FF-4B57-B083-CF92E0E35554}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{118128C7-C6FF-4B57-B083-CF92E0E35554}.Release|Any CPU.Build.0 = Release|Any CPU
 		{406D5E20-4C36-4CA9-9E2C-A2ED9CEA687A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{406D5E20-4C36-4CA9-9E2C-A2ED9CEA687A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406D5E20-4C36-4CA9-9E2C-A2ED9CEA687A}.Release|Any CPU.ActiveCfg = Release|Any CPU
