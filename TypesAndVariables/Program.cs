@@ -34,15 +34,20 @@ Console.WriteLine("Number5 is {0}", number5);   //Ondalıklı sayıları tutmak 
 decimal number6 = 10.00000000007M;
 Console.WriteLine("Number6 is {0}", number6); // Virgülden sonra ki basamak sayısı artar ve genelde parasal değerler için kullanılır.
 
+//VAR
+var number7 = 7;
+number7 = 8;
+Console.WriteLine("Number7 is {0}", number7); // Atadığın değişkenin veritipine göre sonradan farklı bi değer ataması yapabilirsin.
+
+
 
 //ENUM
-
-
-
-
-
-
-
+Console.WriteLine((int)Days.Friday); 
+Console.WriteLine(Days.Friday);
 
 Console.ReadLine();
 
+enum Days
+{
+    Monday,Tuesday, Wednesday, Friday,Saturday,Sunday 
+}
