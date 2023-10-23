@@ -12,6 +12,11 @@ else
 
 }
 
+// Single Line If ile çalışmak....
+var number2 = 8;
+Console.WriteLine(number2==10 ? "Number is 10 " : "Number is not 10");
+
+
 
 
 
