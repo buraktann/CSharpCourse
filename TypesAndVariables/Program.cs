@@ -35,6 +35,7 @@ decimal number6 = 10.00000000007M;
 Console.WriteLine("Number6 is {0}", number6); // Virgülden sonra ki basamak sayısı artar ve genelde parasal değerler için kullanılır.
 
 
+//ENUM
 
 
 
