@@ -1,13 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 ForLoop();
-WhileLopp();
+WhileLoop();
+DoWhileLoop();
 
 
 
-
-
-static void WhileLopp()
+static void DoWhileLoop()
+{
+    int number = 10;
+    do
+    {
+        Console.WriteLine(number);
+        number--;
+    } while (number >= 11);
+}
+static void WhileLoop()
 {
     int number = 100;
     while (number >= 0)
@@ -25,4 +33,6 @@ static void ForLoop()
     }
     Console.WriteLine("Finished");
 }
+
+
 Console.ReadLine();
