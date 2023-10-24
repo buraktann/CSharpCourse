@@ -4,11 +4,19 @@
 //Add();
 //Add();
 //var result = Add2();
-int number1 = 20;
-int number2 = 100;
-var result2 = Add3(out number1, number2);
-Console.WriteLine(result2);
-Console.WriteLine(number1);
+
+//int number1 = 20;
+//int number2 = 100;
+//var result2 = Add3(out number1, number2);
+
+//Console.WriteLine(result2);
+//Console.WriteLine(number1);
+var overloading1 = (OverLoading.Multiply(2, 3));
+var overloading2 = (OverLoading.Multiply(2, 4, 8));
+Console.WriteLine(overloading1);
+Console.WriteLine(overloading2);
+
+
 Console.ReadLine();
 
 //static void Add()
@@ -25,3 +33,19 @@ static int Add3(out int number1, int number2) // Out ile Ref çok benzerdir tek 
     number1 = 30;
     return number1 + number2;
 }
+public class OverLoading
+{
+    public static int Multiply(int number1, int number2)
+    {
+        return number1 * number2;
+    }
+    public static int Multiply(int number1, int number2, int number3)
+    {
+        return number1 * number2 * number3;
+    }
+}
+
+
+
+
+
