@@ -16,6 +16,7 @@ var overloading2 = (OverLoading.Multiply(2, 4, 8));
 Console.WriteLine(overloading1);
 Console.WriteLine(overloading2);
 
+Console.WriteLine(Add4(1, 2, 3, 4, 5, 6));
 
 Console.ReadLine();
 
@@ -33,6 +34,15 @@ static int Add3(out int number1, int number2) // Out ile Ref çok benzerdir tek 
     number1 = 30;
     return number1 + number2;
 }
+
+static int Add4(int number1, params int[] numbers) //PARAMS KEYWORD (SUM ile dizilerin içinde ki değerlerin toplamını bulduk.) number1 ilk değer 1 olduğu için onu toplamadı.
+{
+    return numbers.Sum();
+}
+
+
+
+
 public class OverLoading
 {
     public static int Multiply(int number1, int number2)
@@ -44,6 +54,8 @@ public class OverLoading
         return number1 * number2 * number3;
     }
 }
+
+
 
 
 
