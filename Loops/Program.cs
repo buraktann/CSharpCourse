@@ -1,11 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-ForLoop();
-WhileLoop();
-DoWhileLoop();
+//ForLoop();
+//WhileLoop();
+//DoWhileLoop();
+ForeachLoop();
 
 
 
+static void ForeachLoop()
+{
+    string[] students = new string[3] { "Burak", "Tan", "Engin" };
+    foreach (var student in students)
+    {
+        Console.WriteLine(student);
+    }
+}
 static void DoWhileLoop()
 {
     int number = 10;
