@@ -1,12 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Interfaces;
 //InterfacesIntro();
+//Demo();
 
-CustomerManager customerManager = new CustomerManager();
-customerManager.Add(new SqlServerCustomerDal());
+
+ICustomerDal[] customerDals = new ICustomerDal[3]
+{
+    new SqlServerCustomerDal(),
+    new OracleCustomerDal(),
+    new MysqlCustomerDal(),
+};
+
 
 Console.ReadLine();
 
+static void Demo()
+{
+    CustomerManager customerManager = new CustomerManager();
+    customerManager.Add(new SqlServerCustomerDal());
+}
 static void InterfacesIntro()
 {
     PersonManager manager = new PersonManager();
