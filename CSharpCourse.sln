@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{4574E574-90C9-4A71-8F70-93C243A6560D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{310865F1-4AEC-4227-9816-6D1268FF8E37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{4574E574-90C9-4A71-8F70-93C243A6560D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4574E574-90C9-4A71-8F70-93C243A6560D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4574E574-90C9-4A71-8F70-93C243A6560D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310865F1-4AEC-4227-9816-6D1268FF8E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310865F1-4AEC-4227-9816-6D1268FF8E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310865F1-4AEC-4227-9816-6D1268FF8E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310865F1-4AEC-4227-9816-6D1268FF8E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
