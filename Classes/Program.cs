@@ -1,38 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
- CustomerManager customerManager= new CustomerManager();
+using Classes;
+
+CustomerManager customerManager = new CustomerManager();
 customerManager.Add();
 customerManager.Update();
 
-ProductManager productManager= new ProductManager();
+ProductManager productManager = new ProductManager();
 productManager.Add();
 productManager.Update();
 
+Customer customer = new Customer();
+customer.Id = 1;
+customer.FirstName = "Burak";
+customer.LastName = "Tan";
+customer.City = "Kırklareli";
+
+Customer customer2 = new Customer { Id = 2, FirstName = "Yunus Emre",LastName="Tan",City="Lüleburgaz"};
+Console.WriteLine(customer2.FirstName);
+
+
 Console.ReadLine();
-
-
-
-
-class CustomerManager
-{
-    public void Add()
-    {
-        Console.WriteLine("Customer Added!");
-    }
-    public void Update()
-    {
-        Console.WriteLine("Customer Uptaded!");
-    }
-}
-
-class ProductManager
-{
-    public void Add()
-    {
-        Console.WriteLine("Product Added!");
-    }
-    public void Update()
-    {
-        Console.WriteLine("Product Uptaded!");
-    }
-
-}
