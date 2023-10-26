@@ -63,5 +63,3 @@ static void ForLoop()
 }
 
 Console.ReadLine();
-
-

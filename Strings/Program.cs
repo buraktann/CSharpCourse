@@ -34,16 +34,6 @@ Console.WriteLine(result12);
 Console.WriteLine(result13);
 
 
-
-
-
-
-
-
-
-
-
-
 static void Intro()
 {
     string city = "Ankara";
